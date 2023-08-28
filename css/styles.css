@@ -281,6 +281,7 @@ li.menu-list-item:not(:last-child) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* margin-bottom: 72px; */
 }
 
 footer .span-logo {
@@ -359,7 +360,7 @@ footer .span-logo {
   border-radius: 4px;
   border: 1px solid var(--white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  opacity: 0.3;
+  /* opacity: 0.3; */
   background-color: transparent;
   color: var(--white);
   font-size: 12px;
@@ -567,6 +568,9 @@ footer .span-logo {
 .navigation .link:hover,
 .navigation .link:focus,
 .nav-link .current {
+  color: var(--ocean);
+}
+.navigation .current {
   color: var(--ocean);
 }
 .nav-link.current::after {
