@@ -90,7 +90,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
+  /* margin-left: auto; */
   padding: 0;
   background-color: transparent;
   cursor: pointer;
@@ -563,6 +563,7 @@ footer .span-logo {
   padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
 }
 
 .navigation .link:hover,
@@ -1053,6 +1054,9 @@ address {
   .benefits-icon-container {
     display: none;
   }
+  .benefits-section {
+    padding: 120px 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1062,13 +1066,17 @@ address {
     flex-wrap: wrap;
     gap: 72px 24px;
   }
-
   .benefits-list-item {
     width: calc((100% - 24px) / 2);
   }
 
   .ben-titles {
     text-align: start;
+  }
+}
+@media (max-width: 768px) {
+  .benefits-section {
+    padding: 96px 0;
   }
 }
 
