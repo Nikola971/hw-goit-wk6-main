@@ -281,7 +281,7 @@ li.menu-list-item:not(:last-child) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
 footer .span-logo {
